@@ -2,21 +2,147 @@
 <div align="center">
 <img src="./assets/AIHawk.png">
 
-# AIHawk the first Jobs Applier AI Agent
+# AI Hawk: Automated Application Filler
 
+AI Hawk is an intelligent application filler that can automatically complete job applications and incubator program applications using your profile information and AI.
 
-LinkedIn requested the removal of all links to the platform and banned all project contributors, so to comply with their guidelines, we have removed any form of automation on LinkedIn.
+## Features
 
-In the meantime, we have decided to create a new job board AI driven, which will be ready within a month.
+- **Automated Job Applications**: Fill out job applications automatically using your resume and preferences
+- **Incubator Program Applications**: Complete incubator program applications using your project and team information
+- **AI-Powered Responses**: Generate tailored responses to application questions using advanced AI models
+- **Customizable Templates**: Create and use templates for different application formats
 
-To stay up to date, you can star the project or join our Telegram group.
+## Installation
 
-Join our community: [Telegram](https://t.me/AIhawkCommunity)
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ai-hawk.git
+cd ai-hawk
+```
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AIhawkCommunity)
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
+3. Set up your environment variables:
+```bash
+# Create a .env file with your API keys
+echo "OPENAI_API_KEY=your_openai_api_key" > .env
+# Optional: Add other API keys if needed
+echo "ANTHROPIC_API_KEY=your_anthropic_api_key" >> .env
+echo "GOOGLE_API_KEY=your_google_api_key" >> .env
+```
 
-</div>
+## Usage
+
+### 1. Incubator Application Filler
+
+#### Fill Out an Incubator Application
+
+```bash
+python incubator_application_filler.py fill data_folder/sample_incubator_application.json data_folder/project_profile.yaml
+```
+
+This will:
+1. Load the incubator application template
+2. Load your project profile
+3. Generate answers for each question using AI
+4. Save the completed application
+
+Options:
+- `--output/-o`: Specify the output file path
+- `--api-key`: Provide API key directly (otherwise uses environment variables)
+- `--model`: Choose AI model (default: gpt-4)
+- `--temperature`: Set model temperature (default: 0.7)
+
+#### Create a New Application Template
+
+```bash
+python incubator_application_filler.py create-template "YCombinator W2024" --url https://ycombinator.com/apply --deadline 2023-10-03
+```
+
+This creates a template with placeholder questions that you can then edit to match the actual application questions.
+
+#### View a Filled Application
+
+```bash
+python incubator_application_filler.py view incubator_applications/filled_sample_incubator_application.json
+```
+
+### 2. Job Application Filler
+
+(Original job application functionality remains unchanged)
+
+## Data Structure
+
+### Project Profile
+
+Create a YAML file with your project and team information:
+
+```yaml
+team:
+  - full_name: "John Doe"
+    role: "CEO/Founder"
+    email: "johndoe@example.com"
+    linkedin: "https://www.linkedin.com/in/johndoe/"
+    # ... more team member details
+
+basic_info:
+  project_name: "AI Hawk"
+  tagline: "Automated job application assistant powered by AI"
+  # ... more project basic info
+
+details:
+  problem_statement: "Job seekers waste countless hours filling out repetitive application forms..."
+  solution_description: "AI Hawk automates the job application process..."
+  # ... more project details
+
+technical:
+  tech_stack:
+    - "Python/Django"
+    - "React.js"
+  # ... more technical details
+
+funding:
+  funding_to_date: "$250,000"
+  # ... more funding details
+
+incubator_preferences:
+  resources_needed:
+    - "Industry connections in HR tech"
+  # ... more preferences
+```
+
+See `data_folder/project_profile.yaml` for a complete example.
+
+### Incubator Application Template
+
+Create a JSON file with the application questions:
+
+```json
+{
+  "program_name": "YCombinator W2024",
+  "application_url": "https://www.ycombinator.com/apply/",
+  "deadline": "2023-10-03",
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_text": "Describe what your company does in 50 characters or less.",
+      "max_chars": 50,
+      "expected_content": "A very brief tagline or description."
+    },
+    // ... more questions
+  ]
+}
+```
+
+See `data_folder/sample_incubator_application.json` for a complete example.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 **Creator** [feder-cr](https://github.com/feder-cr)</br>
 As AIHawk is focusing on their proprietary product - solving problems in hiring for companies, currently this project is led, managed, and maintained by a group of open-source contributors, with a focus on building tools to help job seekers land the jobs they deserve.
