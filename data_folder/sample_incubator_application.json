@@ -1,0 +1,67 @@
+{
+  "program_name": "YCombinator W2024",
+  "application_url": "https://www.ycombinator.com/apply/",
+  "deadline": "2023-10-03",
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_text": "Describe what your company does in 50 characters or less.",
+      "max_chars": 50,
+      "expected_content": "A very brief tagline or description. Be clear and concise."
+    },
+    {
+      "question_id": "q2",
+      "question_text": "Why did you pick this idea to work on? Do you have domain expertise in this area? How do you know people need what you're making?",
+      "max_chars": 1000,
+      "expected_content": "Focus on founder-market fit, initial inspiration, and validation."
+    },
+    {
+      "question_id": "q3",
+      "question_text": "What's new about what you're making? What substitutes do people resort to because it doesn't exist yet (or they don't know about it)?",
+      "max_chars": 1000,
+      "expected_content": "Explain your unique value proposition and how people currently solve this problem."
+    },
+    {
+      "question_id": "q4",
+      "question_text": "Who are your competitors, and who might become competitors? Who do you fear most?",
+      "max_chars": 1000,
+      "expected_content": "Be honest about competition and explain why you can win."
+    },
+    {
+      "question_id": "q5",
+      "question_text": "What do you understand about your business that other companies in it just don't get?",
+      "max_chars": 1000,
+      "expected_content": "Highlight your unique insight or advantage in your market."
+    },
+    {
+      "question_id": "q6",
+      "question_text": "How do or will you make money? How much could you make?",
+      "max_chars": 1000,
+      "expected_content": "Explain your business model, pricing strategy, and market size calculations."
+    },
+    {
+      "question_id": "q7",
+      "question_text": "How will you get users? How do you know they'll use your product?",
+      "max_chars": 1000,
+      "expected_content": "Detail your customer acquisition strategy and any validation you have."
+    },
+    {
+      "question_id": "q8",
+      "question_text": "If you've already started working on it, how long have you been working and how many lines of code (if applicable) have you written?",
+      "max_chars": 1000,
+      "expected_content": "Show traction and progress to date."
+    },
+    {
+      "question_id": "q9",
+      "question_text": "How long have the founders known one another and how did you meet?",
+      "max_chars": 1000,
+      "expected_content": "Describe your team dynamics and history."
+    },
+    {
+      "question_id": "q10",
+      "question_text": "What's the worst thing that has happened in your startup journey so far?",
+      "max_chars": 1000,
+      "expected_content": "Show resilience and what you've learned from challenges."
+    }
+  ]
+} 

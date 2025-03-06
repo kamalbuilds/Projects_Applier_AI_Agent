@@ -1,0 +1,130 @@
+team:
+  - full_name: "John Doe"
+    role: "CEO/Founder"
+    email: "johndoe@example.com"
+    linkedin: "https://www.linkedin.com/in/johndoe/"
+    github: "https://github.com/kamalbuilds"
+    bio: "Serial entrepreneur with 10 years experience in AI and machine learning. Previously founded XYZ company."
+    skills:
+      - "Business Development"
+      - "AI Strategy"
+      - "Product Management"
+    years_experience: 10
+    education:
+      - institution: "Stanford University"
+        degree: "MS in Computer Science"
+        year: "2015"
+      - institution: "MIT"
+        degree: "BS in Computer Science"
+        year: "2013"
+  
+  - full_name: "Jane Smith"
+    role: "CTO/Co-Founder"
+    email: "janesmith@example.com"
+    linkedin: "https://www.linkedin.com/in/janesmith/"
+    github: "https://github.com/janesmith"
+    bio: "Full-stack engineer specializing in ML/AI systems. Former lead engineer at ABC Corp."
+    skills:
+      - "Machine Learning"
+      - "Software Architecture"
+      - "Python/TensorFlow"
+    years_experience: 8
+    education:
+      - institution: "Carnegie Mellon"
+        degree: "PhD in Machine Learning"
+        year: "2018"
+
+basic_info:
+  project_name: "AI Hawk"
+  tagline: "Automated job application assistant powered by AI"
+  website: "https://aihawk.example.com"
+  github_repo: "https://github.com/aihawk/main"
+  founding_date: "2023-01-15"
+  development_stage: "MVP"
+  sector: "AI/Automation"
+  industry:
+    - "Human Resources"
+    - "Productivity Tools"
+    - "Career Development"
+
+details:
+  problem_statement: "Job seekers waste countless hours filling out repetitive application forms across different platforms, leading to application fatigue and missed opportunities."
+  
+  solution_description: "AI Hawk automates the job application process by intelligently filling out application forms using the applicant's resume data, tailoring responses to each position, and providing insights on application success rates."
+  
+  unique_value_proposition: "Unlike basic form fillers, AI Hawk uses AI to analyze job descriptions and tailors responses to match job requirements, increasing response rates by 40%."
+  
+  target_audience: "Recent graduates, career changers, and active job seekers who apply to multiple positions weekly."
+  
+  market_size: "The global recruitment software market is valued at $1.75 billion and growing at 6.2% CAGR."
+  
+  business_model: "Freemium SaaS with tiered subscription plans based on application volume and advanced features."
+  
+  revenue_streams:
+    - "Monthly/annual subscriptions"
+    - "Resume analysis and optimization services"
+    - "Integration with premium job platforms"
+  
+  competitors:
+    - name: "ApplyBot"
+      differentiator: "Our AI provides more personalized responses and learns from successful applications"
+    - name: "QuickApply"
+      differentiator: "We offer comprehensive analytics and success metrics for applications"
+  
+  traction: "500 beta users, 75 paying customers, 15,000 applications processed"
+  
+  roadmap:
+    "Q3 2023": "Launch mobile app"
+    "Q4 2023": "Integrate with 10 additional job platforms"
+    "Q1 2024": "Implement interview preparation features"
+    "Q2 2024": "Expand to European markets"
+
+technical:
+  tech_stack:
+    - "Python/Django"
+    - "React.js"
+    - "TensorFlow/PyTorch"
+    - "Google Cloud Platform"
+    - "PostgreSQL"
+  
+  intellectual_property: "Proprietary algorithms for resume-to-application matching and response optimization"
+  
+  scalability_approach: "Microservice architecture with containerization allowing for elastic scaling based on user demand"
+  
+  current_challenges:
+    - "Handling the diversity of application form structures across different platforms"
+    - "Improving accuracy of field recognition in non-standard forms"
+    - "Optimizing response generation to match job requirements"
+  
+  future_technological_needs:
+    - "Advanced NLP capabilities for contextual understanding"
+    - "Computer vision for better handling of visual form elements"
+    - "Real-time feedback system for application quality"
+
+funding:
+  funding_to_date: "$250,000"
+  funding_sources:
+    - "Angel investors"
+    - "Founder capital"
+  current_runway: "8 months"
+  funding_needed: "$1.2 million"
+  use_of_funds:
+    "Engineering": "45%"
+    "Marketing": "25%"
+    "Operations": "20%"
+    "Legal/Administrative": "10%"
+
+incubator_preferences:
+  resources_needed:
+    - "Industry connections in HR tech"
+    - "Growth marketing expertise"
+    - "Enterprise sales strategy"
+    - "Technical mentorship in AI/ML scaling"
+  
+  program_length_preference: "6 months"
+  equity_willingness: "Up to 7%"
+  relocation_willingness: true
+  remote_participation: true
+  specific_mentors_desired:
+    - "Experts in HR Tech"
+    - "AI/ML specialists with product experience" 
