@@ -1,28 +1,28 @@
 team:
-  - full_name: "John Doe"
+  - full_name: "Kamal Nayan Singh"
     role: "CEO/Founder"
-    email: "johndoe@example.com"
-    linkedin: "https://www.linkedin.com/in/johndoe/"
+    email: "kamalthedev7@gmail.com"
+    linkedin: "https://www.linkedin.com/in/kamal-singh7/"
     github: "https://github.com/kamalbuilds"
     bio: "Serial entrepreneur with 10 years experience in AI and machine learning. Previously founded XYZ company."
     skills:
       - "Business Development"
       - "AI Strategy"
       - "Product Management"
-    years_experience: 10
+    years_experience: 6
     education:
-      - institution: "Stanford University"
-        degree: "MS in Computer Science"
-        year: "2015"
-      - institution: "MIT"
+      - institution: "Delhi Technological University"
+        degree: "B.Tech in Computer Science and Engineering"
+        year: "2017"
+      - institution: "Indian Institute of Technology, Delhi"
         degree: "BS in Computer Science"
         year: "2013"
   
-  - full_name: "Jane Smith"
+  - full_name: "Abhishek Kumar"
     role: "CTO/Co-Founder"
     email: "janesmith@example.com"
-    linkedin: "https://www.linkedin.com/in/janesmith/"
-    github: "https://github.com/janesmith"
+    linkedin: "https://www.linkedin.com/in/abhishek-01k/"
+    github: "https://github.com/abhish_3k"
     bio: "Full-stack engineer specializing in ML/AI systems. Former lead engineer at ABC Corp."
     skills:
       - "Machine Learning"
